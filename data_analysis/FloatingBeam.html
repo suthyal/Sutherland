@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://latex.now.sh/style.css">
     <!-- Including MathJax script to handle LaTeX math formulas in the HTML content -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
         async></script>
@@ -38,8 +39,6 @@
         the system.
     </p>
 
-    <h2>The Wave Basin</h2>
-    <!-- Empty section content -->
 
     <h2>Instrumentation</h2>
 
@@ -51,11 +50,12 @@
         would allow the movement of Qualisys probes, both during tests and between tests, while still maintaining
         reference coordinates.
     </p>
-    <figure>
-        <img src="figures/instrumentation/QualisysMarkers.PNG"
-            alt="The layout of Qualisys Markers in the Basin and on the RIBWA" width="100%">
-        <figcaption>The layout of Qualisys Markers in the Basin and on the RIBWA</figcaption>
-    </figure>
+<figure style="text-align:center;">
+    <img src="figures/instrumentation/QualisysMarkers.PNG"
+        alt="The layout of Qualisys Markers in the Basin and on the RIBWA"
+        style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption><em>The layout of Qualisys Markers in the Basin and on the RIBWA</em></figcaption>
+</figure>
 
     <p>
         The Qualisys system was calibrated after every 48 hours, or two test days. The calibration error for a qualisys
@@ -79,10 +79,11 @@
         Figure below. The location of all wave gauges were surveyed and their voltages were calibrated before testing
         was commenced.
     </p>
-    <figure>
-        <img src="figures/instrumentation/WaveGauges.PNG" alt="The Wave Gauges within the RIBWA" width="100%">
-        <figcaption>The Wave Gauges within the RIBWA</figcaption>
-    </figure>
+<figure style="text-align:center;">
+    <img src="figures/instrumentation/WaveGauges.PNG" alt="The Wave Gauges within the RIBWA"
+        style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption><em>The Wave Gauges within the RIBWA</em></figcaption>
+</figure>
 
     <h1>RIBWA Dynamics and Stress Analysis</h1>
     <p>
@@ -118,11 +119,11 @@
         minimize its curvature when an external load is applied, the second criteria used to determine the correct
         polynomial fit was the stored energy. An example frame of this process is depicted below.
     </p>
-    <figure>
-        <img src="figures/energy/EnergyPoly1.jpg" alt="Fitting the polynomials to data, and calculating their energy"
-            width="100%">
-        <figcaption>Fitting the polynomials to data, and calculating their energy</figcaption>
-    </figure>
+<figure style="text-align:center;">
+    <img src="figures/energy/EnergyGif.gif" alt="Visual representation of energy dynamics"
+        style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption><em>Visual representation of energy dynamics using the GIF</em></figcaption>
+</figure>
     <p>
         Once the correct fit has been determined the maximum bending stress acting on the RIBWA at each moment in time
         is calculated using the equation:
@@ -144,25 +145,22 @@
         represented by the sum total energy shown in the following figure. It can be seen that the fourth order fit
         predicts a much larger stored energy than the third order fit.
     </p>
-    <figure>
-        <img src="figures/energy/EnergyBars.jpg" alt="The sum of stored energy during a single test" width="75%">
-        <figcaption>The sum of stored energy during a single test</figcaption>
-    </figure>
+<figure style="text-align:center;">
+    <img src="figures/energy/EnergyBars.jpg" alt="The sum of stored energy during a single test"
+        style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption><em>The sum of stored energy during a single test</em></figcaption>
+</figure>
     <p>
         Once the fit was determined the maximum bending stress at each moment in time was calculated using the previous
         equation. The maximum values follow a normal distribution and can be seen in the following figure.
     </p>
-    <figure>
-        <img src="figures/energy/stresskPa50cm.jpg"
-            alt="Max stress values over the course of testing at a water depth of 0.5m." width="75%">
-        <figcaption>Max stress values over the course of testing at a water depth of 0.5m.</figcaption>
-    </figure>
+<figure style="text-align:center;">
+    <img src="figures/energy/stresskPa50cm.jpg"
+        alt="Max stress values over the course of testing at a water depth of 0.5m."
+        style="display: block; margin-left: auto; margin-right: auto;">
+    <figcaption><em>Max stress values over the course of testing at a water depth of 0.5m.</em></figcaption>
+</figure>
 
-    <h2>Results</h2>
-    <!-- Empty section content -->
-
-    <h1>Energy Amplification</h1>
-    <!-- Empty section content -->
 
 </body>
 
